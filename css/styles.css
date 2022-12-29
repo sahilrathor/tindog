@@ -21,8 +21,9 @@ p{
     color: #8f8f8f;
 }
 .container-fluid{
-    padding: 5% 15% 5%;
+    padding: 5% 15%;
 }
+
 
 
 #title{
@@ -62,46 +63,46 @@ p{
 }
 #footer{
     background-color: #fff;
-    /* padding: 5% 0; */
+    /* padding: 0 0; */
     text-align: center;
 }
 
 
 
-/*  TITLE SECTION */
-
-.title-cont{
-    padding: 0% 15% 07%;
-}
-
 /* navigation */
 .navbar{
-    padding: 3% 13% 4.5rem;
+    padding: 3% 10% 4.5rem 13%;
 }
 .navbar-brand{
     font-family: 'Ubuntu',sans-serif;
     font-weight: bold;
     font-size: 2.5rem;
-    /* margin: 0; */
 }
 .nav-item{
-    padding: 0 18px;
+    padding: 0 7px;
 }
 .nav-link{
     font-size: 1.2rem;
     font-weight: 300;
 }
-.title-row{
-    /* padding: 3% 15% 7%; */
+
+
+
+/*  TITLE SECTION */
+#title .container-fluid{
+    padding: 0 15% 7%;
 }
-.download_button{
+#title .btn{
     margin: 5% 3% 5% 0;
+}
+#title .title-col h1{
+    margin: auto;
 }
 .img-col{
     /* text-align: right; */
     position: relative;
 }
-.title_img{
+#title img{
     width: 50%;
     /* height: 90%; */
     transform: rotate(25deg);
@@ -113,20 +114,18 @@ p{
 
 
 /* FEATURES SECTION */
-.feature-row{
-}
-.ftr-col{
+#features .col{
     text-align: center;
     margin: 70px auto;
 }
-.fa-solid{
+#features .fa-solid{
     padding: 15px;
     color: #ef8172;
 }
-.fa-solid:hover{
+#features .fa-solid:hover{
     color: #ff4c68;
 }
-.p-cont{
+#features p{
     margin: auto;
     text-align: center;
 }
@@ -134,17 +133,18 @@ p{
 
 
 /*  TESTIMONIALS SECTION */
-.testimonial-cont{
-    padding: 0% 0 ;
+#testimonials .container-fluid{
+    padding: 0 0;
 }
-.carousel-item{
-    padding: 7% 15%;
+#testimonials .carousel-item{
+    padding: 7% 15% 5%;
 }
-.testimonial-img{
+#testimonials img{
     width: 10%;
     border-radius: 100%;
     margin: 20px;
 }
+
 
 
 
@@ -157,44 +157,50 @@ p{
 
 
 /* PRICING SECTION */
-.pricing-cont{
+#pricing .container-fluid{
     padding: 5% 0;
 }
 .card-row{
     margin: auto;
-    padding: 3% 2% 0;
+    padding: 3% 5% 0;
 }
 .card-col{
-    padding: 0% 2%;
+    padding: 2% 15px;
 }
 .card-btn{
-    font-weight: normal;
+    font-weight: lighter;
 }
 .card-btn:hover{
-    font-weight: 900;
+    font-weight: normal;
 }
 
 
 
 /* CTA   */
-.cta-h3{
+#cta h3{
     margin: 15px auto;
     font-family: 'Montserrat',serif;
     font-weight: bold;
     font-size: 3rem;
     width: 80%;
-    /* padding: 15px; */
+    padding: 15px;
 }
-.cta-download-button{
-    margin: 3% 3% 3% 0;
+#cta .btn{
+    margin: 3% 1.5%;
 }
 
 
 
 /*  FOOTER */
+#footer .container-fluid{
+    padding: 5% 15% 7%;
+}
 .fa-footer-icon{
     margin: 0 5px;
     color: #252525;
+}
+#footer p{
+    margin: 10px 0;
 }
 
 
@@ -218,6 +224,7 @@ p{
     
     .title_img{
         position: static;
+        transform: rotate(0);
     }
 }
 
